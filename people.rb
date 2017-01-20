@@ -44,5 +44,12 @@ end
 def teach
   "Everything in Ruby is an Object!"
 end
-
 end
+
+#irb(main):015:0> student.teach
+#=> "Everything in Ruby is an Object!"
+#irb(main):016:0> teacher.learn
+#NoMethodError: undefined method `learn' for #<Instructor:0x007fca201b8e78>
+#	from (irb):16
+#	from /Users/careycosta/.rbenv/versions/2.3.1/bin/irb:11:in `<main>'
+#irb(main):017:0>
